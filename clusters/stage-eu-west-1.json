@@ -1,0 +1,27 @@
+{
+  "kind": "cluster",
+  "metadata": {
+    "name": "stage-general-euw1",
+    "labels": {
+      "class": "general",
+      "environment": "stage",
+      "infra-boundary": "mgmt",
+      "provider": "aws",
+      "region": "eu-west-1"
+    }
+  },
+  "spec": {
+    "auth": {
+      "oidc-provider": "",
+      "api-endpoint": "",
+      "api-ca-data": ""
+    },
+    "k8s-version": "1.23",
+    "creation-timestamp": "",
+    "provisioner": "cluster-api",
+    "k8s-distro": "eks"
+  },
+  "status": {
+    "phase": "provisioned"
+  }
+}
